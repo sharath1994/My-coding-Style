@@ -1,0 +1,18 @@
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\Serial app.exe.config
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\Serial app.exe.manifest
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\Serial app.application
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\Serial app.exe
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\Serial app.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\Serial app.xml
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial_app.Form1.resources
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial_app.Resources.resources
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial app.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial app.exe.manifest
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial app.application
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial app.exe
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial app.xml
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial app.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\obj\Debug\Serial_app.SplashScreen1.resources
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\SplashScreen1.resx
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\SplashScreen1.Designer.vb
+C:\Users\Lenovo\Documents\Visual Studio 2012\Projects\serial app\Serial app\Serial app\bin\Debug\SplashScreen1.vb

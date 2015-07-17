@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<head></head>
+<body>
+<form action="">
+<p>
+    <input type="button" name="on" id="onButton" value="ON" onClick="ledOn();">
+    <input type="button" name="off" id="offButton" value="OFF" onClick="ledOff();">
+	</p>
+	
+<div id="txt">State: Loading</div>
+
+</form>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+var socket = io.connect(document.location.href);
+var myId;
+
+socket.on('on connection', function (data) {
+    console.log("on connection: " + data.client);
+    console.log("Number of client connected: " + data.clientCount);
+});
+
+socket.on('on disconnect',function(data) {
+    console.log("on disconnect: " + data.client);
+    console.log("Number of client connected: " + data.clientCount);
+});
+
+socket.on('your id',function(data) {
+    console.log("your id: " + data.id);
+    myId = data.id;
+});
+
+socket.on('ledupdate', function (data) {
+    console.log("status: " + data.status);
+    
+    if(myId==data.by){
+        console.log("By YOU");
+    }else{
+        console.log("By: " + data.by);
+    }
+    
+    if(data.status =='ON'){
+        document.getElementById("txt").text="ON";
+    }else{
+        document.getElementById("txt").text="OFF";
+    }
+});
+function ledOn(){
+      socket.emit('led', { status: 'ON' });
+	  $("#txt").html("State: Device is turned ON");
+    }
+	
+	function ledOff(){
+      socket.emit('led', { status: 'OFF' });
+	  
+	  $("#txt").html("State: Device is turned OFF");
+    }
+	
+	</script>
+
+</body>
+</html>
